@@ -1,10 +1,10 @@
 def letterPos(w, x):
     count = 0
     for i in range(0,len(w)):
-        if w[i-1] == x:
+        if w[i] == x:
             count = i
             return count 
     else:
         return "none"
 
-print(letterPos("sunshine", "n"))
+print(letterPos("alligator", "r"))
